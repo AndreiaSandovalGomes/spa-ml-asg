@@ -19,7 +19,7 @@ main{
   height: 100vh;
 }
 .carStock{
-  background-image: url(/dist/img/carrao.jpg);
+  background-image: url(../dist/img/carrao.jpg);
   background-size: contain;
   background-repeat: no-repeat;
 }
@@ -33,41 +33,18 @@ main{
   height: 5vh;
   border-radius: 50%;
 }
-.campos-form {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
 
-.campo-busca {
-  height: 30px;
-  margin-bottom: 10px;
-  padding-left: 10px;
-  width: 100%;
-}
-
-.btn-busca {
-  height: 30px;
-  width: 50%;
-  color: white;
-  text-transform: uppercase;
-  background-color: red;
-  border: none;
-}
-
-.area-noticia {
+.area-cars {
   width: 70vw;
   margin: auto;
 }
 
-.noticia {
+.show-info{
   background-color: lightgrey;
   padding: 15px;
   margin: 15px;
 }
 
 footer{
-
   background-color: black;
 }
